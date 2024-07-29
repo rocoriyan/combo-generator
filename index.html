@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComboGen</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>This webpage only exists for using the console.</h1>
+    <p>This program generates the combinations of a set of values.</p>
+    <p>For example, lets say you have 3 bags of marbles.
+    <p>The first bag of marbles has 2 red marbles labelled "A" and "B".<br/>
+    The second bag has 3 blue marbles labelled "A", "B" and "C".<br/>
+    The third bag has 2 green marbles labelled "A" and "B".</p>
+    <p>We want to know what all of the combinations of marbles you could get if you pulled one from each bag</p>
+    <p>So we gather the choices per group and put them one after another in a string (i.e. Our example from before becomes "232").</p>
+    <p>Then inputting that into the function "Generate" in the console will print all of the number combinations.</p>
+    <p>e.g. <code>Generate(232)</code> gives us:</p>
+    <pre>   Number of combinations: 12
+   ['0,0,0', '0,0,1', '0,1,0', '0,1,1', '0,2,0', '0,2,1', '1,0,0', '1,0,1', '1,1,0', '1,1,1', '1,2,0', '1,2,1']</pre>
+    <p>These can be converted into something else with another algorithm</p>
+    <p>This program also serves as a tool for generating numbers with mixed bases, but numbers with different bases per digit don't seem to be that useful outside of combination generation</p>
+</body>
+</html>
